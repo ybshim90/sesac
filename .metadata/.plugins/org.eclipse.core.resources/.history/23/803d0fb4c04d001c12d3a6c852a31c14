@@ -1,0 +1,19 @@
+package day04;
+
+public class TestProduct {
+
+	public static void main(String[] args) {
+		Product[] products = new Product[100];
+		
+		int count = 0;
+		
+		products[count++] = new Product("≥√¿Â∞Ì",100,"ªÔº∫");
+		products[count++] = new Product("ºº≈π±‚",100,"LG");
+		products[count++] = new Product("±Ëƒ°≥√¿Â∞Ì",100,"∏∏µµ");
+		
+		for(int i=0;i<count;i++) {
+			products[i].printInfo();
+		}
+	}
+
+}

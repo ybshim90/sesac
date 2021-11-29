@@ -1,0 +1,18 @@
+
+public class TestProduct2 {
+	
+	public static void main(String[] args) {
+		ProductManager pm = new ProductManager();
+		
+		Product p = new Product("≥√¿Â∞Ì","ªÔº∫",100);
+		pm.add(p);
+		p = new Product("ºº≈π±‚","LG",110);
+		pm.add(p);
+		p = new Product("±Ëƒ°≥√¿Â∞Ì","∏∏µµ",120);
+		pm.add(p);
+		
+		System.out.println("count:"+pm.getCount());
+		
+		pm.find("ºº≈π±‚");
+	}
+}

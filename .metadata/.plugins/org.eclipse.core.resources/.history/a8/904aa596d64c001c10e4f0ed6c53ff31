@@ -1,0 +1,20 @@
+package day03;
+
+public class Car {
+	
+	Car(String type, String name){
+		this(type, name);
+	}
+	
+	Car(String type, String name, double cc){
+		this.type = type;
+		this.name = name;
+		this.cc = cc;
+//		System.out.println(this);
+	}
+	
+	String type;
+	String name;
+	double cc;
+
+}

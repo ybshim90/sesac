@@ -1,0 +1,37 @@
+package day04;
+
+public class Movie {
+	String 제목;
+	String 감독;
+	int 제작비;
+	
+	public String get제목() {
+		return 제목;
+	}
+	public void set제목(String 제목) {
+		this.제목 = 제목;
+	}
+	public String get감독() {
+		return 감독;
+	}
+	public void set감독(String 감독) {
+		this.감독 = 감독;
+	}
+	public int get제작비() {
+		return 제작비;
+	}
+	public void set제작비(int 제작비) {
+		this.제작비 = 제작비;
+	}
+	
+	Movie(String 제목, String 감독, int 제작비){
+		this.제목 = 제목;
+		this.감독 = 감독;
+		this.제작비 = 제작비;
+	}
+	
+	void printInfo() {
+		System.out.println(제목 + " " + 감독 + " " + 제작비);
+	}
+	
+}

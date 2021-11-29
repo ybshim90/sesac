@@ -1,0 +1,18 @@
+package day04;
+
+public class TestMovie {
+
+	public static void main(String[] args) {
+		
+		Movie m1 = new Movie("신세계","홍길동",10000);
+		Movie m2 = new Movie("베테랑","김길동",15000);
+		
+		m1.printInfo();
+		m2.printInfo();
+		
+		System.out.println(m1.get제목()+" "+m1.get감독());
+		System.out.println(m2.get제목()+" "+m2.get감독());
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package day01;
+
+public class 배열연습 {
+
+	public static void main(String[] args) {
+		int[] scores = new int[3];
+		System.out.println(scores);
+		System.out.println(scores[0]);
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package day03;
+
+public class Car {
+	String 차종;
+	String 상품명;
+	double 배기량;
+
+}

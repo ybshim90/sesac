@@ -1,0 +1,20 @@
+package day03;
+/** Student.java*/
+public class Student {
+	private String name;
+	private int num;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	Student(String name, int num){
+		this.name = name;
+		this.num = num;
+	}
+	
+	void printInfo() {
+		System.out.println("name:"+name+",num:"+num);
+	}
+	
+}

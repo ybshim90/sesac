@@ -1,0 +1,15 @@
+package day03;
+/** 로또번호 저장객체 */
+public class Lottonumbers {
+	/** 6개의 로또번호를 난수로 채우기 */
+
+	public void makeNumbers() {
+		
+	}
+
+	public void printInfo() {
+		
+	}
+	
+
+}

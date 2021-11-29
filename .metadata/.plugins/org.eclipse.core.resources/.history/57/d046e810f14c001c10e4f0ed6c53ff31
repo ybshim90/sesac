@@ -1,0 +1,5 @@
+package day03;
+/** 간단한 계산기 */
+public class MyCalc {
+
+}

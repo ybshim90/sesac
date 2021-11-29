@@ -1,0 +1,15 @@
+package day03;
+
+public class Car {
+	
+	Car(String t, String n, double c){
+		차종 = t;
+		상품명 = n;
+		배기량 = c;
+	}
+	
+	String 차종;
+	String 상품명;
+	double 배기량;
+
+}

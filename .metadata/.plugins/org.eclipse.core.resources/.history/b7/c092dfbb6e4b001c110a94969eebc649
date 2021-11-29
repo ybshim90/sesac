@@ -1,0 +1,10 @@
+package day01;
+
+public class 타입연습 {
+
+	public static void main(String[] args) {
+		int 연봉 = 3000000000;
+
+	}
+
+}

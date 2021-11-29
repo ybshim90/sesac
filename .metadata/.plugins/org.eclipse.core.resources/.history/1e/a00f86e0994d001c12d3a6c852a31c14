@@ -1,0 +1,26 @@
+package day04;
+
+public class 배열연습 {
+
+	public static void main(String[] args) {
+//		int score1 = 90;
+//		int[] scores = new int[100];
+//		String name = "홍길동";
+//		String[] names = new String[100];
+		
+		int[] scores = new int[3];
+		
+		int[][] scores2 = new int[2][3];
+		
+		int[] scores3 = {70,90,80};
+		
+		System.out.println(scores3[0]+","+scores3[1]+","+scores3[2]);
+		
+		int[] scores4 = new int[3];
+		scores4[0] = 70;
+		scores4[1] = 90;
+		scores4[2] = 80;
+		
+	}
+
+}

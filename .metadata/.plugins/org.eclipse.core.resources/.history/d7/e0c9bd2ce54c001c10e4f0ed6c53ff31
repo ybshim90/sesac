@@ -1,0 +1,25 @@
+package day03;
+
+public class TestCar {
+	public static void main(String[] args) {
+//		Car c1 = new Car();
+//		c1.type = "cuv";
+//		c1.name = "캐스퍼";
+//		c1.cc = 1.0;
+		
+		Car c1 = new Car("cuv","캐스퍼");
+		System.out.println(c1);
+
+		Car c2 = new Car("suv","소렌트",1.6);
+//		Car c2 = new Car();
+//		c2.type = "suv";
+//		c2.name = "소렌트";
+//		c2.cc = 1.6;
+		
+		System.out.println(c1.type+" "+c1.name+" "+c1.cc);
+		System.out.println(c2.type+" "+c2.name+" "+c2.cc);
+		
+	}
+	
+
+}

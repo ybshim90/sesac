@@ -1,0 +1,12 @@
+package day03;
+/** 간단한 계산기 */
+public class MyCalc {
+	
+	int total = 0;
+
+	void add(int num) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

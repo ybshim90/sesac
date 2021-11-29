@@ -1,0 +1,9 @@
+package day03;
+/**상품정보*/
+public class product {
+	String name;
+	int no;
+	int price1;
+	
+
+}

@@ -1,0 +1,11 @@
+package day01;
+
+public class 논리타입 {
+
+	public static void main(String[] args) {
+		boolean b1 = true;
+		System.out.println(b1);
+
+	}
+
+}

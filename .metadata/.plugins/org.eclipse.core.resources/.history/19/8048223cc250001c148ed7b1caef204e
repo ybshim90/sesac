@@ -1,0 +1,23 @@
+
+public class TestProduct2 {
+	
+	public static void main(String[] args) {
+		ProductManager pm = new ProductManager();
+		
+		Product p = new Product("³ÃÀå°í","»ï¼º",100);
+		pm.add(p);
+		p = new Product("¼¼Å¹±â","LG",110);
+		pm.add(p);
+		p = new Product("±èÄ¡³ÃÀå°í","¸¸µµ",120);
+		pm.add(p);
+		
+		System.out.println("count:"+pm.getCount());
+		
+		int findIndex = pm.findByName("¼¼Å¹±â");
+		if(findIndex == -1) {
+			System.out.println("°Ë»ö½ÇÆÐ");
+		}else {
+			System.out.println("°Ë»ö¼º°ø");
+		}
+	}
+}

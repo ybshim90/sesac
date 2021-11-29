@@ -1,0 +1,32 @@
+
+public class TestProduct {
+
+	public static void main(String[] args) {
+		Product[] parr = new Product[100];
+	
+		Product p = new Product("³ÃÀå°í","»ï¼º",100);
+		int count = 0;
+		parr[count++] = p;
+		p = new Product("³ÃÀå°í","»ï¼º",100);
+		parr[count++] = p;
+		parr[count++] = new Product("±èÄ¡³ÃÀå°í","¸¸µµ",120);
+		
+		System.out.println("ÀúÀå°¹¼ö="+count);
+		
+		for(int i=0; i<count; i++) {
+			parr[i].printInfo();
+		}
+		
+		int findIndex = -1;
+		for(int i=0; i<count; i++) {
+			Product pr = parr[i];
+			
+			if(pr.getName() == "³ÃÀå°í") {
+				System.out.println("°Ë»ö¼º°ø");
+				pr.setPrice(130);
+			}
+		}
+		
+	}
+
+}

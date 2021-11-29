@@ -1,0 +1,14 @@
+package day01;
+
+public class È¸¿ø°ü¸® {
+
+	public static void main(String[] args) {
+
+		String[] names = new String[100];
+		int[] ages = new int[100];
+		
+		names[0] = "È«";
+		ages[0] = 30;
+	}
+
+}

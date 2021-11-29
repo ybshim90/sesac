@@ -1,0 +1,11 @@
+package day04;
+
+public class TestProduct {
+
+	public static void main(String[] args) {
+		Product[] products = new Product[100];
+		
+		
+	}
+
+}

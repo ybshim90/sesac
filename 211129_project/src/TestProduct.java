@@ -1,0 +1,70 @@
+
+public class TestProduct {
+
+	public static void main(String[] args) {
+		Product[] parr = new Product[100];
+	
+		Product p = new Product("냉장고","삼성",100);
+		int count = 0;
+		parr[count++] = p;
+		p = new Product("세탁기","LG",110);
+		parr[count++] = p;
+		parr[count++] = new Product("김치냉장고","만도",120);
+		
+		System.out.println("저장갯수="+count);
+		
+		for(int i=0; i<count; i++) {
+			parr[i].printInfo();
+		}
+		
+		int findIndex = -1;
+		String findName = "김치냉장고";
+		for(int i=0; i<count; i++) {
+			Product pr = parr[i];
+			
+			if(pr.getName() == findName) {
+//				System.out.println("검색성공");
+//				pr.setPrice(130);
+				findIndex = i;
+				break;
+			}
+		}
+		if(findIndex == -1) {
+			System.out.println(findName+"검색실패");
+		}else {
+			System.out.println(findName+"검색성공");
+			parr[findIndex].setPrice(130);
+		}
+		
+		for(int i=0; i<count; i++) {
+			parr[i].printInfo();
+		}
+		
+		
+		findIndex = -1;
+		findName = "세탁기";
+		for(int i=0; i<count; i++) {
+			Product pr = parr[i];
+			
+			if(pr.getName() == findName) {
+//				System.out.println("검색성공");
+//				pr.setPrice(130);
+				findIndex = i;
+				break;
+			}
+		}
+		if(findIndex == -1) {
+			System.out.println(findName+"검색실패");
+		}else {
+			System.out.println(findName+"검색성공");
+			parr[findIndex] = parr[count-1];
+			parr[count-1] = null;
+			count--;
+		}
+		
+		for(int i=0; i<count; i++) {
+			parr[i].printInfo();
+		}
+	}
+
+}

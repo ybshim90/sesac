@@ -1,0 +1,15 @@
+package day01;
+
+public class ≈∏¿‘ø¨Ω¿ {
+
+	public static void main(String[] args) {
+		int ø¨∫¿ = 2000000000;
+		long ∏≈√‚æ◊ = 3000000000L;
+		
+		char c1 = '±Ë';
+		String s1 = "±Ë∞≠";
+		
+		float f1 = 3.1d;
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class TestProduct {
+
+	public static void main(String[] args) {
+		Product[] parr = new Product[100];
+	}
+	
+	Product p = new Product("≥√¿Â∞Ì","ªÔº∫",100);
+	parr[0] = p;
+
+}
