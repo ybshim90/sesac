@@ -1,8 +1,0 @@
-package day03;
-
-public class student {
-	
-	String name;
-	int num;
-
-}
